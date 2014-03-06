@@ -10,4 +10,8 @@ object Application extends Controller {
     Ok(views.html.index(SharedMessages.itWorks))
   }
 
+  def calc = Action {
+    Ok(views.html.calc())
+  }
+
 }
